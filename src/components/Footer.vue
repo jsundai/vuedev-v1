@@ -7,7 +7,7 @@
 <p>Looking To Get In Touch? 📭 <p>
 
 <a href="mailto:jwahirksundai@gmail.com" >Email</a>   
-<a href="www.linkedin.com/jsundai" >LinkedIn</a>
+<a href="https://www.linkedin.com/in/jsundai/" >LinkedIn</a>
  <br>
 
 <p>		
