@@ -1,0 +1,53 @@
+<template>
+<section>
+<div>
+
+<nav>
+<ul>
+   <li><a href="#contact"> Contact </a></li>
+	<li><a href="#work"> Work </a></li>
+  <li><a href="#about"> About </a></li>
+</ul>
+</nav>
+
+
+
+<header id="header">
+  <h1 >
+    <br>
+		Jwahir Sundai <br> 
+    Software Engineer
+  </h1>
+	
+  <p >
+	I'm a <strong style="text-shadow: 1.5px 1px 0px pink;">full stack software engineer</strong> from Cambridge, MA. I hold a degree in Mathematics with Latin Honors from Bryn Mawr College. Skilled in the presentation, logic, and data layer of software.
+  </p>
+	<br>
+
+
+	<h2 class="socials"> 
+	<a href="https://github.com/jsundai" >Github </a>  <a href="https://medium.com/@jsundai" >Medium</a>  
+  </h2>
+
+	
+
+</header>
+
+
+</div>
+</section>
+</template>
+
+<script>
+export default {
+  name: 'Home',
+  props: {
+    msg: String
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+</style>
