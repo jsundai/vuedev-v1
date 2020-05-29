@@ -239,6 +239,7 @@ h3 {
 	justify-content: right;
   float: right;
   margin-top: 50px;
+  margin-left: 20px;
 }
 
 .default {
