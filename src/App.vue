@@ -119,13 +119,13 @@ a:hover {
 h1 {
   font-family: "Playfair Display", serif;
   color: black;
-	font-size: 80px;
+  font-size: 80px;
 }
 
 h2 {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
-  opacity: 50%;
+  color: gray;
   font-size: 20px;
   font-weight: 150;
   word-spacing: 1.5em;
@@ -136,7 +136,7 @@ h2 {
 h5 {
 	font-family:  'Lucida Sans Typewriter', monospace;
 	font-size: 15px;
-	opacity: 60%;
+	color: gray;
 	text-transform: uppercase;
 }
 
@@ -289,8 +289,7 @@ h3 {
 }
 
 #about .pronouns {
-  color: black;
-  opacity: 60%;
+  color: gray;
   font-size: 15px;
  
 }
