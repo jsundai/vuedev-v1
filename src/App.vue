@@ -135,7 +135,7 @@ h2 {
 /*text*/
 h5 {
 	font-family:  'Lucida Sans Typewriter', monospace;
-	font-size: 15px;
+	font-size: 25px;
 	color: gray;
 	text-transform: uppercase;
 }
