@@ -11,7 +11,7 @@
  <br>
 
 <p>		
-Software Engineer. Writer. Open Source Contributor. <br>
+Software Engineer<br>
 ©  Jwahir Sundai 2020 - Made with ♡ & Built in Boston 
 
 </p>
