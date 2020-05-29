@@ -11,7 +11,8 @@
  <br>
 
 <p>		
-Software Engineer<br>
+<br> 
+<br>
 ©  Jwahir Sundai 2020 - Made with ♡ & Built in Boston 
 
 </p>
