@@ -18,7 +18,7 @@
 <div>
     <h5> Recent Activities </h5>
 <p>
-    Completed: Intro to GCP Identity and Getting Started with AWS Machine Learning Certificate <br> 
+    
     Attended: Jamstack and ByteConf React Virtual Conference <br>
     Competing: Facebook Hackathon  <br>
     Reading: The Effective Engineer by Edmond Lau <br> 
