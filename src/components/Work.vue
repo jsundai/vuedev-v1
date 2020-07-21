@@ -14,7 +14,7 @@ Select Work
     <img src="@/assets/healthtrackerimage.png" />
     <div class="card-body">
        <a href="https://sleepy-khorana-2bbba2.netlify.app/">
-      <h3>COVID-19 Live Tracking Project with Data Analysis</h3>
+      <h3>Health Data Visualization: COVID-19 Live Tracking Project </h3>
       <p> React, Gatsby, Leaflet, Mapbox, API</p>
       </a>
     </div>
