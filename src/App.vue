@@ -57,7 +57,7 @@ export default {
 }
 
 body {
-	background: linear-gradient(35deg,black, gray);
+	background: #696969;
 	background-size: 400% 400%;
   padding: 0;
   margin: 0;
@@ -120,7 +120,7 @@ a {
 
 /* makes the navigation links red on hover*/
 a:hover {
-  color: #bd1c2b;
+  color: #FFA07A;
   text-decoration: none;
   transition: 0.25s;
 }
