@@ -147,7 +147,6 @@ h1 {
   font-family: 'Raleway', sans-serif;
   color: white;
 	font-size: 80px;
-  opacity: 70%;
   text-transform: uppercase;
   font-weight: 150;
 
@@ -156,7 +155,6 @@ h1 {
 h2 {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
-  opacity: 50%;
   font-size: 20px;
   font-weight: 150;
   word-spacing: 1.5em;
@@ -170,7 +168,6 @@ h2 {
 h5 {
 	font-family:  'Lucida Sans Typewriter', monospace;
 	font-size: 20px;
-	opacity: 60%;
 	text-transform: uppercase;
 
 }
@@ -199,7 +196,6 @@ h3 {
 
 h4 {
   font-family: 'Quicksand', sans-serif;
-  opacity: 80%;
   font-size: 35px;
   font-weight: 150;
   color: white;
@@ -353,7 +349,6 @@ border: 5px solid whitesmoke;
 
 #about .pronouns {
   color: black;
-  opacity: 60%;
   font-size: 15px;
  
 }
