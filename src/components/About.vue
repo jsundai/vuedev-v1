@@ -1,6 +1,7 @@
 <template >
 <div>
 <section id="about">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 
@@ -10,7 +11,7 @@
       About Jwahir 
 
     </h3>
-    <p>  <img src="@/assets/myphoto.jpg" />
+    <p >  <img src="@/assets/myphoto.jpg" />
       As an engineer, I aim to build beautiful, responsive, and 
       accessible web applications and software. Using well written code and modern technologies, I work to solve real world problems and bring ideas to life. I also enjoy contributing to open source software. 
       <br><br>

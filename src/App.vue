@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <Home msg="Welcome to Your Vue.js App"/>
-    <Work msg="This is the Projects page"/>
     <About msg="This is the About page"/>
     <Skills msg="This is the Skills and Activities page"/>
     <Footer msg="This is the Footer page"/>
@@ -16,11 +15,9 @@
 
 <script>
 import Home from './components/Home.vue'
-import Work from './components/Work.vue'
 import About from './components/About.vue'
 import Skills from './components/Skills.vue'
 import Footer from './components/Footer.vue'
-
 
 
 
@@ -31,7 +28,6 @@ export default {
   name: 'App', 
   components: {
     Home,
-    Work,
     About, 
     Skills,
     Footer
@@ -54,14 +50,34 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color:black;
-  height: 100%;
-  }
+  height: 100%; }
 
 * {
   box-sizing: border-box;
 }
 
+body {
+	background: linear-gradient(-130deg,black, gray);
+	background-size: 400% 400%;
+	animation: gradient 25s ease infinite;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 
 /*navigation*/
@@ -118,19 +134,23 @@ a:hover {
 
 
 #header  {
-  text-align: left;
-  max-width: 900px;
-  padding-left: 100px;
-  padding-bottom: 100px;
+  text-align: center;
+  padding-bottom: 300px;
 
 }
 
 
 
+
+
 h1 {
-  font-family: 'Abril Fatface', serif;
-  color: #012623;
+  font-family: 'Raleway', sans-serif;
+  color: white;
 	font-size: 80px;
+  opacity: 70%;
+  text-transform: uppercase;
+  font-weight: 150;
+
 }
 
 h2 {
@@ -144,12 +164,15 @@ h2 {
 
 
 
+
+
 /*text*/
 h5 {
 	font-family:  'Lucida Sans Typewriter', monospace;
 	font-size: 20px;
 	opacity: 60%;
 	text-transform: uppercase;
+
 }
 
 p {
@@ -160,6 +183,11 @@ p {
   
 }
 
+#header p {
+  color: white;
+  padding-left: 200px;
+  padding-right: 200px;
+}
 
 
 
@@ -169,6 +197,13 @@ h3 {
 	font-size: 80px;
 }
 
+h4 {
+  font-family: 'Quicksand', sans-serif;
+  opacity: 80%;
+  font-size: 35px;
+  font-weight: 150;
+  color: white;
+}
 
 
 /*select work*/
@@ -176,9 +211,9 @@ h3 {
 #work {
   padding: 100px;
   position: relative;
-  margin-bottom: 150px;
-  
+  background: white;
 }
+
 
 .card-body h3 {
   font-family: 'Quicksand', sans-serif;
@@ -191,7 +226,6 @@ h3 {
 .card-body p {
   font-size: 15px;
 }
-
 
 
 
@@ -215,6 +249,7 @@ h3 {
   padding: .5em .5em;
   grid-template-rows: 100px 250px;
   font-size: 64px;
+  background: white;
 }
 
 .card:hover {
@@ -239,6 +274,10 @@ h3 {
  
 }
 
+h6 {
+  color: black;
+}
+
 #work img {
 width: 175px; height: 100px;
 display: block;
@@ -246,6 +285,8 @@ margin-left: auto;
 margin-right: auto;
 border: 5px solid whitesmoke;
 }
+
+
 
 
 
@@ -281,6 +322,7 @@ border: 5px solid whitesmoke;
   float: left;
   margin-left: 100px;
   margin-right: 100px;
+  margin-bottom: 40px;
   
 }
 
@@ -319,8 +361,10 @@ border: 5px solid whitesmoke;
 
 /*skills*/
 
+
 #skills {
   padding: 200px;
+  background: white;
   
 }
 
